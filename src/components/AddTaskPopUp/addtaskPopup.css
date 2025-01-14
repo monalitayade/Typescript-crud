@@ -1,0 +1,53 @@
+.addtaskpopup__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.addtaskpopup__content__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #fff;
+}
+.addtaskpopup__content__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+.addtaskpopup__content__header__title {
+  font-size: 20px;
+}
+.addtaskpopup__content__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.addtaskpopup__content__form__row {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.addtaskpopup__content_form__row__label {
+  display: flex;
+  width: 155px;
+}
+.addtaskpopup__content_form__row__input {
+  display: flex;
+  width: 100%;
+  padding: 10px 5px;
+  border: 1px solid #ccc;
+}
+.addtaskpopup__content__form__submit {
+  width: auto;
+}
